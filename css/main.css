@@ -7,7 +7,7 @@
     * .intro-page .navbar {
       font-family: "Poppins" , sans-serif;
       padding: 20px;
-      z-index: 999;
+      z-index: 9;
       background-color: transparent; }
       * .intro-page .navbar .container .navbar-brand img {
         width: 13%;
@@ -209,7 +209,7 @@
       * .intro-page .intro-wrap .intro-center-home {
         position: relative;
         margin-bottom: 45px;
-        z-index: 99; }
+        z-index: 1; }
         * .intro-page .intro-wrap .intro-center-home .texts h4 {
           font-size: 50px;
           font-family: "Poppins" , sans-serif;
@@ -361,6 +361,11 @@
     * .new-portfolio .bg .top-c {
       right: 110px !important;
       top: 2rem !important; } }
+  @media screen and (max-width: 1100px) {
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .prev {
+      left: -8rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 40rem !important; } }
   @media screen and (max-width: 1125px) {
     * .intro-page .navbar .container .navbar-nav .menu {
       margin-top: 5px;
@@ -372,6 +377,10 @@
     * .new-portfolio .bg .bg-text {
       font-size: 16.75rem !important; } }
   @media screen and (max-width: 991px) {
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .prev {
+      left: -10rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 38rem !important; }
     * .intro-page .navbar .container .info1 {
       margin-right: 10rem !important; }
     * .intro-page .navbar .container .navbar-nav1 .information {
@@ -393,6 +402,12 @@
       width: 85%; }
       * .footer .container .row .col-md-4 .icon-contact a i {
         padding-left: 35px; } }
+  @media screen and (max-width: 880px) {
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 33rem !important; } }
+  @media screen and (max-width: 768px) {
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 32rem !important; } }
   @media screen and (max-width: 767px) {
     * .intro-page .navbar .container .navbar-brand img {
       margin-top: 0 !important; }
@@ -429,6 +444,10 @@
       font-size: 17px !important; }
     * .intro-page .intro-wrap .intro-center-home .intro-bottom .down-btn-wrap a i {
       font-size: 32px !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider img {
+      height: 25rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 27rem !important; }
     * .intro-about-page .container .row .col-md-12 .section-heading h2 {
       font-size: 4rem !important; }
     * .intro-about-page .container .row .col-md-12 .section-heading p {
@@ -495,7 +514,7 @@
     * .intro-page .intro-wrap .intro-center-home h4 {
       font-size: 35px !important; }
     * .intro-page .intro-wrap .intro-center-home h1 {
-      font-size: 70px !important; }
+      font-size: 65px !important; }
     * .intro-page .intro-wrap .intro-center-home .intro-bottom p {
       font-size: 14px !important; }
     * .intro-page .intro-wrap .intro-center-home .intro-bottom .down-btn-wrap a i {
@@ -513,7 +532,11 @@
       width: 400px !important;
       height: 400px !important; }
     * .footer .row .text h1 {
-      font-size: 2.3625rem !important; } }
+      font-size: 2.3625rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .prev {
+      left: -6rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 24rem !important; } }
   @media screen and (max-width: 575px) {
     * .intro-page .navbar .container .navbar-nav li .btn {
       width: 150% !important; }
@@ -523,6 +546,8 @@
       left: 2rem !important; }
     * .intro-page .intro-wrap .bg-home-intro-bubbles span:nth-child(7) {
       left: 65% !important; }
+    * .intro-page .intro-wrap .intro-center-home h1 {
+      font-size: 60px !important; }
     * .services .bg-home-intro-bubbles span:nth-child(2) {
       left: 75% !important; }
     * .services .bg-home-intro-bubbles span:nth-child(4) {
@@ -531,7 +556,13 @@
     * .new-portfolio .bg .bg-text {
       font-size: 7.75rem !important; }
     * .footer .bg-home-intro-bubbles span:nth-child(1) {
-      left: 75% !important; } }
+      left: 75% !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider img {
+      height: 20rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .prev {
+      left: -4rem !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 19.5rem !important; } }
   @media screen and (max-width: 515px) {
     * .intro-page .navbar .container .navbar-nav li .btn {
       width: 165% !important; }
@@ -541,7 +572,9 @@
       font-size: 6rem !important;
       left: 40% !important; }
     * .footer .container .row .col-md-4 .navbar-brand img {
-      width: 50% !important; } }
+      width: 50% !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 17.5rem !important; } }
   @media screen and (max-width: 450px) {
     * .intro-page .navbar .container .navbar-brand img {
       margin-top: -5px !important;
@@ -553,7 +586,7 @@
     * .intro-page .intro-wrap .intro-center-home h4 {
       font-size: 28px !important; }
     * .intro-page .intro-wrap .intro-center-home h1 {
-      font-size: 55px !important; }
+      font-size: 43px !important; }
     * .intro-page .intro-wrap .intro-center-home .intro-bottom p {
       font-size: 14px !important; }
     * .intro-page .intro-wrap .intro-center-home .intro-bottom .down-btn-wrap a i {
@@ -573,10 +606,15 @@
     * .footer .container .row .col-md-4 p {
       font-size: 14px !important; }
     * .footer .container .row .col-md-4 .icon-contact i {
-      font-size: 22px !important; } }
+      font-size: 22px !important; }
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 15.5rem !important; } }
+  @media screen and (max-width: 400px) {
+    * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
+      left: 13.5rem !important; } }
   * .intro-about-page {
     background-color: #00091F;
-    padding-bottom: 135px; }
+    padding-bottom: 80px; }
     * .intro-about-page .container .row .col-md-12 {
       margin-top: 3rem; }
       * .intro-about-page .container .row .col-md-12 .section-heading h2 {
@@ -632,8 +670,6 @@
         padding: 35px;
         border-radius: 10px;
         transition: all 0.7s ease; }
-        * .intro-about-page .container .row .col-md-3 a .serv-home:nth-child(1).active {
-          background-color: #202CD7; }
         * .intro-about-page .container .row .col-md-3 a .serv-home:hover {
           background-color: #202CD7;
           box-shadow: 3px 3px 10px 1px #2E7FD2; }
@@ -649,7 +685,7 @@
       position: relative;
       overflow-y: hidden;
       border-radius: 20px;
-      box-shadow: 3px 3px 10px 2px #e2e2e2; }
+      box-shadow: 1px 1px 5px 1px #e2e2e2; }
       * .intro-about-page .container .row .col-md-4 .box .image img {
         width: 100%;
         height: 100%;
@@ -689,24 +725,84 @@
             * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li {
               display: inline-block;
               list-style: none;
-              margin: 0 15px; }
+              margin: 0 15px;
+              padding: 5px;
+              border-radius: 50%;
+              color: white;
+              font-size: 18px;
+              text-align: center;
+              border: 1px solid white; }
               * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li:hover {
                 transition: all 0.4s ease-in; }
-              * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li a {
-                padding: 5px;
-                border-radius: 50%;
-                color: white;
-                font-size: 18px;
-                text-align: center;
-                border: 1px solid white; }
-                * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li a:hover {
-                  color: rgba(117, 78, 249, 0.8);
-                  background-color: rgba(255, 255, 255, 0.733);
-                  transition: all 0.1s ease-in; }
+              * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li:hover {
+                color: rgba(117, 78, 249, 0.8);
+                background-color: rgba(255, 255, 255, 0.733);
+                transition: all 0.1s ease-in; }
       * .intro-about-page .container .row .col-md-4 .box:hover {
         transition: all 0.3s ease-in; }
         * .intro-about-page .container .row .col-md-4 .box:hover .overlay {
           display: block; }
+    * .intro-about-page .container .row .col-md-4 .modal-bg {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s; }
+      * .intro-about-page .container .row .col-md-4 .modal-bg .close {
+        position: absolute;
+        top: 1rem;
+        padding: 12px;
+        right: 1.5rem;
+        border: none;
+        z-index: 99;
+        opacity: 1 !important;
+        background-color: white;
+        font-weight: bold; }
+      * .intro-about-page .container .row .col-md-4 .modal-bg .slider {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box; }
+        * .intro-about-page .container .row .col-md-4 .modal-bg .slider img {
+          height: 30rem; }
+        * .intro-about-page .container .row .col-md-4 .modal-bg .slider button {
+          padding: 5px 10px 5px 10px; }
+        * .intro-about-page .container .row .col-md-4 .modal-bg .slider .prev {
+          position: absolute;
+          left: -12rem;
+          height: 3rem;
+          top: 12rem;
+          background-color: white;
+          opacity: 1;
+          z-index: 999;
+          border: none; }
+          * .intro-about-page .container .row .col-md-4 .modal-bg .slider .prev i {
+            font-size: 30px; }
+        * .intro-about-page .container .row .col-md-4 .modal-bg .slider .next {
+          height: 3rem;
+          position: absolute;
+          z-index: 999;
+          background-color: white;
+          opacity: 1;
+          left: 47rem;
+          top: 12rem;
+          border: none; }
+          * .intro-about-page .container .row .col-md-4 .modal-bg .slider .next i {
+            font-size: 30px; }
+    * .intro-about-page .container .row .col-md-4 .bg-active {
+      visibility: visible;
+      opacity: 1; }
   * .new-portfolio {
     position: relative;
     background: #00091F;

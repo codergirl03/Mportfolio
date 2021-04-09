@@ -17,3 +17,35 @@ hamburger.addEventListener("click" , function(){
     line2.classList.toggle("hover");
     line3.classList.toggle("hover");
 });
+
+
+// slick modal
+$(document).ready(function(){
+    $('.slider').slick({
+        dots:false,
+        arrows:true,
+        speed:2000,
+        infinite: true,
+        // autoplay:true,
+        slideToShow:1,
+        fade: true,
+        autoplaySpeed:500,
+        prevArrow: '<button type="button" class="prev"><i class="fas fa-chevron-left"></i></button>',
+	    nextArrow: '<button type="button" class="next"><i class="fas fa-chevron-right"></i></button>'
+    });
+});
+
+
+// modal btn
+
+var modalBtn = document.querySelector(".modalbtn");
+var modalBg = document.querySelector(".modal-bg");
+var modalClose = document.querySelector(".close");
+
+this.modalBtn.addEventListener("click" , () =>{
+      modalBg.classList.add("bg-active");
+});
+
+this.modalClose.addEventListener("click" , ()=> {
+    modalBg.classList.remove("bg-active");
+});

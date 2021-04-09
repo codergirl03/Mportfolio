@@ -1,0 +1,18 @@
+@media screen and (max-width:450px) {
+    .footer .bg-home-intro-bubbles span:nth-child(4){
+        left: 30% !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .intro-about-page .container .row .col-md-4{
+        margin-top: 3rem !important;
+    }
+  }
+@media screen and (max-width: 767px){
+ .intro-about-page .container .row .col-md-12 .section-heading p {
+      font-size: 15px !important;
+  }
+}
+/* .intro-page .intro-wrap .intro-center-home .texts h1 {
+    font-size: 90px  !important;
+} */
