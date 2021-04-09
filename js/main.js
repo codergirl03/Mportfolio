@@ -24,7 +24,7 @@ $(document).ready(function(){
     $('.slider').slick({
         dots:false,
         arrows:true,
-        speed:2000,
+        speed:1500,
         infinite: true,
         // autoplay:true,
         slideToShow:1,
