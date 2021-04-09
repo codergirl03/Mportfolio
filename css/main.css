@@ -209,7 +209,7 @@
       * .intro-page .intro-wrap .intro-center-home {
         position: relative;
         margin-bottom: 45px;
-        z-index: 1; }
+        z-index: 9; }
         * .intro-page .intro-wrap .intro-center-home .texts h4 {
           font-size: 50px;
           font-family: "Poppins" , sans-serif;
