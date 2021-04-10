@@ -37,15 +37,18 @@ $(document).ready(function(){
 
 
 // modal btn
+let modalBtn = document.querySelectorAll(".modalbtn");
+let modalBg = document.querySelectorAll(".modal-bg");
+let modalClose = document.querySelectorAll(".close");
+for(let i = 0; i < 3 ; i++){
+    modalBtn[i].addEventListener("click" , () =>{
+        modalBg[i].classList.add("bg-active");
+    });
+}
+for(let i = 0; i < 3; i++){
+    modalClose[i].addEventListener("click" , () =>{
+        modalBg[i].classList.remove("bg-active")
+    });
+    
+}
 
-var modalBtn = document.querySelector(".modalbtn");
-var modalBg = document.querySelector(".modal-bg");
-var modalClose = document.querySelector(".close");
-
-this.modalBtn.addEventListener("click" , () =>{
-      modalBg.classList.add("bg-active");
-});
-
-this.modalClose.addEventListener("click" , ()=> {
-    modalBg.classList.remove("bg-active");
-});
