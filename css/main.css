@@ -2,7 +2,7 @@
   padding: 0;
   margin-top: 0;
   box-sizing: border-box;
-  overflow-x: hidden; }
+  overflow-x: clip; }
   * .intro-page {
     position: relative; }
     * .intro-page .navbar {
