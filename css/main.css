@@ -350,7 +350,7 @@
       z-index: 1; }
   * #particles-js {
     background: #00091F;
-    height: 100vh;
+    height: 85vh;
     width: 100%; }
   @media screen and (max-width: 1199px) {
     * .intro-page .navbar .container .navbar-nav1 .information {
