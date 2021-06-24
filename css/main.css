@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin-top: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
   * .intro-page {
     position: relative; }
     * .intro-page .navbar {
@@ -11,7 +12,7 @@
       background-color: transparent; }
       * .intro-page .navbar .container .navbar-brand img {
         width: 13%;
-        margin-top: -1rem; }
+        margin-top: 0rem; }
       * .intro-page .navbar .container ul .menu {
         margin-top: 5px; }
       * .intro-page .navbar .container ul li {
@@ -120,7 +121,7 @@
           * .intro-page .navbar .container .navbar-nav1 .container .information {
             width: 35%; }
             * .intro-page .navbar .container .navbar-nav1 .container .information .info {
-              margin-top: -9rem;
+              margin-top: 0rem;
               display: block;
               text-align: left; }
               * .intro-page .navbar .container .navbar-nav1 .container .information .info .serve {
@@ -572,13 +573,13 @@
       font-size: 6rem !important;
       left: 40% !important; }
     * .footer .container .row .col-md-4 .navbar-brand img {
-      width: 50% !important; }
+      width: 25% !important; }
     * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
       left: 17.5rem !important; } }
   @media screen and (max-width: 450px) {
     * .intro-page .navbar .container .navbar-brand img {
       margin-top: -5px !important;
-      width: 19% !important; }
+      width: 25% !important; }
     * .intro-page .intro-wrap .bg-home-intro-bubbles span:nth-child(1) {
       left: 1rem !important; }
     * .intro-page .intro-wrap .bg-home-intro-bubbles span:nth-child(7) {
@@ -599,10 +600,12 @@
     * .new-portfolio .container .section-wrap .bg-text {
       font-size: 6rem !important;
       left: 25% !important; }
+    * .new-portfolio .container .row .col-md-12 .article-row a img {
+      width: 75% !important; }
     * .footer .container .row .text h1 {
       font-size: 2.2rem !important; }
     * .footer .container .row .col-md-4 .navbar-brand img {
-      width: 65% !important; }
+      width: 30% !important; }
     * .footer .container .row .col-md-4 p {
       font-size: 14px !important; }
     * .footer .container .row .col-md-4 .icon-contact i {
@@ -650,10 +653,12 @@
               color: white;
               display: block;
               padding: 0;
+              margin-top: -1rem;
               font-family: "Poppins", sans-serif; }
             * .intro-about-page .container .row .col-md-3 .homepage-stat .num-text .num-text-main .more {
               color: white;
-              font-size: 1.125rem;
+              font-size: 0.9rem;
+              margin-left: -0.9rem;
               font-family: "Poppins", sans-serif; }
             * .intro-about-page .container .row .col-md-3 .homepage-stat .num-text .num-text-main .percent {
               font-size: 2.5rem;
@@ -725,84 +730,15 @@
             * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li {
               display: inline-block;
               list-style: none;
-              margin: 0 15px;
-              padding: 5px;
-              border-radius: 50%;
-              color: white;
-              font-size: 18px;
-              text-align: center;
-              border: 1px solid white; }
-              * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li:hover {
-                transition: all 0.4s ease-in; }
-              * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li:hover {
-                color: rgba(117, 78, 249, 0.8);
-                background-color: rgba(255, 255, 255, 0.733);
-                transition: all 0.1s ease-in; }
+              margin: 0 15px; }
+              * .intro-about-page .container .row .col-md-4 .box .overlay .work-content ul li a {
+                color: white;
+                font-size: 18px;
+                text-align: center; }
       * .intro-about-page .container .row .col-md-4 .box:hover {
         transition: all 0.3s ease-in; }
         * .intro-about-page .container .row .col-md-4 .box:hover .overlay {
           display: block; }
-    * .intro-about-page .container .row .col-md-4 .modal-bg {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9;
-      visibility: hidden;
-      opacity: 0;
-      transition: visibility 0s, opacity 0.5s; }
-      * .intro-about-page .container .row .col-md-4 .modal-bg .close {
-        position: absolute;
-        top: 1rem;
-        padding: 12px;
-        right: 1.5rem;
-        border: none;
-        z-index: 99;
-        opacity: 1 !important;
-        background-color: white;
-        font-weight: bold; }
-      * .intro-about-page .container .row .col-md-4 .modal-bg .slider {
-        width: 50%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        box-sizing: border-box; }
-        * .intro-about-page .container .row .col-md-4 .modal-bg .slider img {
-          height: 30rem; }
-        * .intro-about-page .container .row .col-md-4 .modal-bg .slider button {
-          padding: 5px 10px 5px 10px; }
-        * .intro-about-page .container .row .col-md-4 .modal-bg .slider .prev {
-          position: absolute;
-          left: -12rem;
-          height: 3rem;
-          top: 12rem;
-          background-color: white;
-          opacity: 1;
-          z-index: 999;
-          border: none; }
-          * .intro-about-page .container .row .col-md-4 .modal-bg .slider .prev i {
-            font-size: 30px; }
-        * .intro-about-page .container .row .col-md-4 .modal-bg .slider .next {
-          height: 3rem;
-          position: absolute;
-          z-index: 999;
-          background-color: white;
-          opacity: 1;
-          left: 50rem;
-          top: 12rem;
-          border: none; }
-          * .intro-about-page .container .row .col-md-4 .modal-bg .slider .next i {
-            font-size: 30px; }
-    * .intro-about-page .container .row .col-md-4 .bg-active {
-      visibility: visible;
-      opacity: 1; }
   * .new-portfolio {
     position: relative;
     background: #00091F;
@@ -905,16 +841,18 @@
         z-index: 2;
         white-space: nowrap;
         font-weight: 900; }
-      * .new-portfolio .container .row .col-md-10 .article-row {
-        position: relative;
-        z-index: 2; }
-        * .new-portfolio .container .row .col-md-10 .article-row a img {
-          width: 35%;
-          padding-bottom: 20px;
-          margin-left: 20px;
-          height: 100%;
+      * .new-portfolio .container .row .col-md-12 {
+        justify-content: center; }
+        * .new-portfolio .container .row .col-md-12 .article-row {
           position: relative;
-          border-radius: 20px 20px 40px 40px; }
+          z-index: 2; }
+          * .new-portfolio .container .row .col-md-12 .article-row a img {
+            width: 35%;
+            padding-bottom: 20px;
+            margin-left: 20px;
+            height: 100%;
+            position: relative;
+            border-radius: 20px 20px 40px 40px; }
       * .new-portfolio .container .link-button {
         display: table;
         margin: 0 auto;
@@ -1050,35 +988,37 @@
     * .footer .container {
       position: relative;
       z-index: 99; }
-      * .footer .container .row .text {
-        margin: 0 auto; }
-        * .footer .container .row .text h1 {
+      * .footer .container .row {
+        align-items: center; }
+        * .footer .container .row .text {
+          margin: 0 auto; }
+          * .footer .container .row .text h1 {
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 100px;
+            margin-top: 80px;
+            font-size: 3.375rem;
+            color: white;
+            transition: all 0.3s ease;
+            letter-spacing: 1px; }
+            * .footer .container .row .text h1:hover {
+              letter-spacing: 3px; }
+        * .footer .container .row .col-md-4 .navbar-brand img {
+          width: 25%;
+          margin-top: 0rem; }
+        * .footer .container .row .col-md-4 p {
           font-family: "Poppins", sans-serif;
-          margin-bottom: 100px;
-          margin-top: 80px;
-          font-size: 3.375rem;
-          color: white;
-          transition: all 0.3s ease;
-          letter-spacing: 1px; }
-          * .footer .container .row .text h1:hover {
-            letter-spacing: 3px; }
-      * .footer .container .row .col-md-4 .navbar-brand img {
-        width: 25%;
-        margin-top: -1rem; }
-      * .footer .container .row .col-md-4 p {
-        font-family: "Poppins", sans-serif;
-        font-size: 20px;
-        color: white; }
-      * .footer .container .row .col-md-4 .icon-contact {
-        width: 100%;
-        text-align: right; }
-        * .footer .container .row .col-md-4 .icon-contact i {
-          color: white;
-          font-size: 30px;
-          transition: all 0.2s ease-out !important;
-          padding-left: 50px; }
-          * .footer .container .row .col-md-4 .icon-contact i:hover {
-            color: blue; }
+          font-size: 20px;
+          color: white; }
+        * .footer .container .row .col-md-4 .icon-contact {
+          width: 100%;
+          text-align: right; }
+          * .footer .container .row .col-md-4 .icon-contact i {
+            color: white;
+            font-size: 30px;
+            transition: all 0.2s ease-out !important;
+            padding-left: 50px; }
+            * .footer .container .row .col-md-4 .icon-contact i:hover {
+              color: blue; }
     * .footer .bg-home-intro-bubbles {
       position: absolute;
       left: 0;

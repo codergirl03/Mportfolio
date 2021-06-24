@@ -35,20 +35,3 @@ $(document).ready(function(){
     });
 });
 
-
-// modal btn
-let modalBtn = document.querySelectorAll(".modalbtn");
-let modalBg = document.querySelectorAll(".modal-bg");
-let modalClose = document.querySelectorAll(".close");
-for(let i = 0; i < 3 ; i++){
-    modalBtn[i].addEventListener("click" , () =>{
-        modalBg[i].classList.add("bg-active");
-    });
-}
-for(let i = 0; i < 3; i++){
-    modalClose[i].addEventListener("click" , () =>{
-        modalBg[i].classList.remove("bg-active")
-    });
-    
-}
-

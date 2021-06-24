@@ -2,6 +2,7 @@
     padding: 0;
     margin-top: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 
 // 1 section-home
 .intro-page{
@@ -15,7 +16,7 @@
             .navbar-brand{
                 img{
                     width: 13%;
-                    margin-top: -1rem;
+                    margin-top: 0rem;
                 }
             }
             ul{
@@ -177,7 +178,7 @@
                     .information{
                         width: 35%;
                         .info{
-                            margin-top: -9rem;
+                            margin-top: 0rem;
                             display: block;
                             text-align: left;
                             .serve{
@@ -1169,7 +1170,7 @@
                .col-md-4{
                    .navbar-brand{
                        img{
-                           width: 50% !important;
+                           width: 25% !important;
                        }
                    }
                }
@@ -1198,7 +1199,7 @@
                 .navbar-brand{
                     img{
                         margin-top: -5px !important;
-                        width: 19% !important;
+                        width: 25% !important;
                     }
                 }
             }
@@ -1253,6 +1254,17 @@
                     left: 25% !important;
                 }
             }
+            .row{
+                .col-md-12{
+                    .article-row{
+                        a{
+                            img{
+                                width: 75% !important;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     .footer{
@@ -1266,7 +1278,7 @@
                 .col-md-4{
                     .navbar-brand{
                         img{
-                            width: 65% !important;
+                            width: 30% !important;
                         }
                     }
                     p{
@@ -1362,11 +1374,13 @@
                                 color: white;
                                 display: block;
                                 padding: 0;
+                                margin-top: -1rem;
                                 font-family: "Poppins", sans-serif;
                             }
                             .more{
                                 color: white;
-                                font-size: 1.125rem;
+                                font-size: 0.9rem;
+                                margin-left: -0.9rem;
                                 font-family: "Poppins", sans-serif;
                             }
                             .percent{
@@ -1462,22 +1476,12 @@
                                     display: inline-block;
                                     list-style: none;
                                     margin: 0 15px;
-                                   &:hover{
-                                    transition: all 0.4s ease-in;
+                                   a{
+                                    color: white;
+                                    font-size: 18px;
+                                    text-align: center;      
                                    }
-                                   
-                                        padding: 5px;
-                                        border-radius: 50%;
-                                        color: white;
-                                        font-size: 18px;
-                                        text-align: center;
-                                        border: 1px solid white;
-                                        &:hover{
-                                            color: rgba(117, 78, 249, 0.8);
-                                            background-color: rgba(255, 255, 255, 0.733);
-                                            transition: all 0.1s ease-in;
-                                        }
-                                
+                     
                                 }
                             }
 
@@ -1490,78 +1494,6 @@
                             display: block;
                         }
                     }
-                }
-                .modal-bg{
-                    position: fixed;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100vh;
-                    background-color: rgba(0,0,0,.5);
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    z-index: 9;
-                    visibility: hidden;
-                    opacity: 0;
-                    transition: visibility 0s, opacity 0.5s;
-                    .close{
-                        position: absolute;
-                        top: 1rem;
-                        padding: 12px;
-                        right: 1.5rem;
-                        border: none;
-                        z-index: 99;
-                        opacity: 1 !important;
-                        background-color: white;
-                        font-weight: bold;
-                    }
-                    .slider{
-                        width: 50%;
-                        height: auto;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        position: relative;
-                        box-sizing: border-box;
-                        
-                            img{
-                                height: 30rem;
-                            }
-                            button{
-                                padding: 5px 10px 5px 10px;
-                            }
-                            .prev{
-                                position: absolute;
-                                left: -12rem;
-                                height: 3rem;
-                                top: 12rem;
-                                background-color: white;
-                                opacity: 1;
-                                z-index: 999;
-                                border: none;
-                                i{
-                                    font-size: 30px;
-                                }
-                            }
-                            .next{
-                                height: 3rem;
-                                position: absolute;
-                                z-index: 999;
-                                background-color: white;
-                                opacity: 1;
-                                left: 50rem;
-                                top: 12rem;
-                                border: none;
-                                i{
-                                    font-size: 30px; 
-                                }
-                            }
-                    }
-                }
-                .bg-active{
-                    visibility: visible;
-                    opacity: 1;
                 }              
             }
            
@@ -1660,7 +1592,6 @@
         padding-top: 100px;
         padding-bottom: 200px;
         .section-wrap{
-
         .section-heading{
             margin-top: 10px;
             position: relative;
@@ -1690,7 +1621,8 @@
         }               
         }
         .row{
-            .col-md-10{
+            .col-md-12{
+                justify-content: center;
                 .article-row{
                     position: relative;
                     z-index: 2;
@@ -1890,6 +1822,7 @@
         position: relative;
         z-index: 99;
         .row{
+            align-items: center;
             .text{
                 margin: 0 auto;
                 h1{
@@ -1909,7 +1842,7 @@
                     .navbar-brand{
                         img{
                             width: 25%;
-                            margin-top: -1rem;
+                            margin-top: 0rem;
                         }
                     }
                     p{
