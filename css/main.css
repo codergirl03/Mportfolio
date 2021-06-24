@@ -612,6 +612,8 @@
     * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
       left: 15.5rem !important; } }
   @media screen and (max-width: 400px) {
+    * .intro-page .navbar .container .navbar-nav1 .container .info1 {
+      margin-top: -5rem !important; }
     * .intro-about-page .container .col-md-4 .modal-bg .slider .next {
       left: 13.5rem !important; } }
   * .intro-about-page {

@@ -1308,6 +1308,19 @@
     }
 }
 @media  screen and (max-width:400px){
+    .intro-page{
+        .navbar{
+            .container{  
+                .navbar-nav1{
+                    .container{
+                        .info1{
+                            margin-top: -5rem !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
     .intro-about-page{
         .container{
             .col-md-4{
